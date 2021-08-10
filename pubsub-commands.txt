@@ -4,8 +4,4 @@ gcloud pubsub topics publish factory-sensors --message='my message' --attribute=
 
 command with JSON
 
-gcloud pubsub topics publish factory-sensors --message='{"sensorLocation":"sensor-001-json"}' --attribute='sensorName=sensor-003,temperature=99,humidity=95'
-
-New test command
-
-gcloud pubsub topics publish factory-sensors --message='try again' --attribute='sensorLocation=London,sensorName=sensor-001,temperature=75,humidity=80'
+gcloud pubsub topics publish factory-sensors --message '{"sensorLocation":"London Underground", "sensorReference": "0014567"}' --attribute sensorName=sensor-003,temperature=99,humidity=95,pressure=40
