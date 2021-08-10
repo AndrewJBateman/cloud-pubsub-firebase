@@ -1,7 +1,6 @@
 # Cloud Pubsub Firebase
 
 * Publish data to Pub/Sub and write a cloud function to write to Cloud Firestore database
-* Code is written in Typescript
 * Tutorial code from [D-I-Ry](https://www.youtube.com/channel/UCMHvK9tare9Y9O152C9wm3Q) with some modifications - see [:clap: Inspiration](#clap-inspiration) below
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
@@ -27,7 +26,8 @@
 
 ## :books: General info
 
-* tba
+* Google Cloud Pub/Sub is a messaging service for exchanging event data among applications and services.
+* Code is written in Typescript
 
 ## :camera: Screenshots
 
@@ -49,7 +49,7 @@
 
 ## :computer: Code Examples - by [D-I-Ry](https://www.youtube.com/channel/UCMHvK9tare9Y9O152C9wm3Q) with some modifications
 
-* function to transfer data using pubsub
+* function to transfer data using pub/sub
 
 ```typescript
 exports.insertFromPubsub = functions.pubsub
